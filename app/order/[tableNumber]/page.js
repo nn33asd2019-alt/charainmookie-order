@@ -1,7 +1,7 @@
 "use client";
 
 import { use, useEffect, useState } from "react";
-import { supabase } from "@/lib/supabaseClient";
+import { supabase } from "../../../lib/supabaseClient";
 
 
 // จำนวนรายการ (บรรทัด) สูงสุดในตะกร้าต่อการส่งออเดอร์ 1 ครั้ง
